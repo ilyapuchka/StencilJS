@@ -1,0 +1,26 @@
+{
+  "name": "StencilJS",
+  "version": "0.0.1",
+  "summary": "JavaScriptCore extension for Stencil",
+  "description": "This pod contains [Stencil](https://github.com/kylef/Stencil) Extension\nthat allows extending Stencil template engine with custom tags and filters\nwritten in JavaScript.",
+  "homepage": "https://github.com/ilyapuchka/StencilJS",
+  "license": "MIT",
+  "authors": {
+    "Ilya Puchka": "ilya@puchka.me"
+  },
+  "social_media_url": "https://twitter.com/ilyapuchka",
+  "platforms": {
+    "osx": "10.9"
+  },
+  "source": {
+    "git": "https://github.com/ilyapuchka/StencilJS.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "Sources/**/*.swift",
+  "dependencies": {
+    "Stencil": [
+      "~> 0.7.0"
+    ]
+  },
+  "frameworks": "Foundation"
+}

@@ -1,0 +1,6 @@
+framework module StencilJS {
+  umbrella header "StencilJS-umbrella.h"
+
+  export *
+  module * { export * }
+}
